@@ -4,6 +4,6 @@ from django.db import models
 
 class Camisa(models.Model):
     time = models.CharField(max_length=30)
-    jogador = models.CharField(max_length=15)
+    jogador = models.CharField(max_length=30)
     numero = models.CharField(max_length=3)
     tamanho = models.CharField(max_length=1)
